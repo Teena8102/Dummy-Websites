@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+            <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+            <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+            <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+            <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+            <head><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<link rel="shortcut icon" href="/themes/Mirage2/images/favicon.ico">
+<link rel="apple-touch-icon" href="/themes/Mirage2/images/apple-touch-icon.png">
+<meta name="Generator" content="DSpace 5.10_1.1.1">
+<meta name="Author" content="Universidad de Salamanca">
+<meta name="Copyright" content="Universidad de Salamanca">
+<meta name="Publisher" content="Universidad de Salamanca">
+<link href="/themes/Mirage2/styles/main.css" rel="stylesheet">
+<link href="/themes/Mirage2/styles/statistics.css" rel="stylesheet">
+<link href="/themes/Mirage2/styles/slider-pro.min.css" rel="stylesheet">
+<link href="/themes/Mirage2/xsl/aspect/estadisticas/style_estadisticas.css" rel="stylesheet">
+<link type="application/opensearchdescription+xml" rel="search" href="https://gredos.usal.es:443/open-search/description.xml" title="UvaDoc">
+<script>
+                //Clear default text of emty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of emty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode;     //Internet Explorer
+                else
+                key = e.which;     //Firefox and Netscape
+
+                if(key == 13)  //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+            </script><!--[if lt IE 9]>
+                <script src="/themes/Mirage2/vendor/html5shiv/dist/html5shiv.js"> </script>
+                <script src="/themes/Mirage2/vendor/respond/dest/respond.min.js"> </script>
+                <![endif]--><script src="/themes/Mirage2/vendor/modernizr/modernizr.js"> </script>
+<title>An Indian Perspective on the adverse impact of Internet of Things (IoT)</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Kethareswaran, V." />
+<meta name="DCTERMS.dateAccepted" content="2018-07-03T11:34:31Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2018-07-03T11:34:31Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2017-12-09" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="ADCAIJ: Advances in Distributed Computing and Artificial Intelligence Journal, 6 (2017)" />
+<meta name="DC.identifier" content="2255-2863" />
+<meta name="DC.identifier" content="http://hdl.handle.net/10366/137945" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="The Internet of Things (IoT) has opened up a new era of computing where by every imaginable object is equipped with, or connected to a smart device allowing data collection and communication through the Internet. The IoT challenges individual privacy in terms of the collection and use of individuals’ personal data. This study assesses the extent to which the IoT has an adverse effects on Indian Society.  A review of various policies and laws formulated and enacted by the Govt. Of India where taken into account and various conclusions were derived based on the analyzed facts. Findings indicate that (1) the Indian policies and Laws pertaining to IoT and cyber issues are not enough to provide stiff opposition to the current pretext of fear and mishappenings and (2) future legislations must consider the implications of global reach of IoT services with respect to its citizen’s well-being." />
+<meta name="DC.format" content="application/pdf" />
+<meta name="DC.language" content="eng" scheme="DCTERMS.RFC1766" />
+<meta name="DC.publisher" content="Ediciones Universidad de Salamanca (España)" />
+<meta name="DC.rights" content="Attribution-NonCommercial-NoDerivs 3.0 Unported" />
+<meta name="DC.rights" content="https://creativecommons.org/licenses/by-nc-nd/3.0/" scheme="DCTERMS.URI" />
+<meta name="DC.subject" content="Computación" />
+<meta name="DC.subject" content="Informótica" />
+<meta name="DC.subject" content="Computing" />
+<meta name="DC.subject" content="Information Technology" />
+<meta name="DC.title" content="An Indian Perspective on the adverse impact of Internet of Things (IoT)" />
+<meta name="DC.type" content="info:eu-repo/semantics/article" />
+<meta name="DC.rights" content="info:eu-repo/semantics/openAccess" />
+<meta content="Computaci&oacute;n; Inform&oacute;tica; Computing; Information Technology" name="citation_keywords">
+<meta content="An Indian Perspective on the adverse impact of Internet of Things (IoT)" name="citation_title">
+<meta content="2255-2863" name="citation_issn">
+<!-- An Indian Perspective on the adverse impact of Internet of Things (IoT)-->
+<meta content="Ediciones Universidad de Salamanca (Espa&ntilde;a)" name="citation_publisher">
+<meta content="eng" name="citation_language">
+<meta content="Kethareswaran, V." name="citation_author">
+<meta content="https://gredos.usal.es/bitstream/10366/137945/1/An_Indian_Perspective_on_the_adverse_imp.pdf" name="citation_pdf_url">
+<meta content="2017-12-09" name="citation_date">
+<meta content="https://gredos.usal.es/handle/10366/137945" name="citation_abstract_html_url">
+</head><body>
+<header>
+<div class="visible-xs hidden-sm hidden-md hidden-lg">
+<div class="dropdown" id="language-dropdown-xs">
+<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="language-dropdown-xs">
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=es">espa&ntilde;ol</a>
+</li>
+<li role="presentation" class="disabled">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=en">English</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=fr">fran&ccedil;ais</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=de">Deutsch</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=pt_BR">portugu&ecirc;s (Brasil)</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=it">italiano</a>
+</li>
+</ul>
+</div>
+<img id="logo-gredos-xs" src="/themes/Mirage2/images/gredos.png"><img id="logo-home-bucle-xs" src="https://consorciobucle.es/media/catalogo-colectivo-del-consorcio-de-bibliotecas-universitarias-de-castilla-y-leon/logo-recolector-bucle.png"></div>
+<div role="navigation" class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button data-toggle="offcanvas" class="navbar-toggle" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+<ul class="nav navbar-nav pull-left">
+<li>
+<a href="/page/contact"><span class="hidden-xs">Contact Us</span></a>
+</li>
+</ul>
+<ul class="nav navbar-nav pull-left">
+<li>
+<a href="/feedback"><span class="hidden-xs">Send Feedback</span></a>
+</li>
+</ul>
+<div class="navbar-header pull-right visible-xs hidden-sm hidden-md hidden-lg">
+<ul class="nav nav-pills pull-left ">
+<li class="dropdown" id="ds-language-selection">
+<button data-toggle="dropdown" class="hidden-xs dropdown-toggle navbar-toggle navbar-link" role="button" href="#" id="language-dropdown-toggle"><b aria-hidden="true" class="glyphicon glyphicon-globe"></b></button>
+<ul data-no-collapse="true" aria-labelledby="language-dropdown-toggle" role="menu" class="dropdown-menu pull-right">
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=es">espa&ntilde;ol</a>
+</li>
+<li role="presentation" class="disabled">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=en">English</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=fr">fran&ccedil;ais</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=de">Deutsch</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=pt_BR">portugu&ecirc;s (Brasil)</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=it">italiano</a>
+</li>
+</ul>
+</li>
+<li>
+<form method="get" action="/login" style="display: inline">
+<button class="navbar-toggle navbar-link"><b aria-hidden="true" class="visible-xs glyphicon glyphicon-user"></b></button>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<div class="navbar-header pull-right hidden-xs">
+<ul class="nav navbar-nav pull-left">
+<li class="dropdown" id="ds-language-selection">
+<button data-toggle="dropdown" class="hidden-xs dropdown-toggle navbar-toggle navbar-link" role="button" href="#" id="language-dropdown-toggle"><b aria-hidden="true" class="glyphicon glyphicon-globe"></b></button>
+<ul data-no-collapse="true" aria-labelledby="language-dropdown-toggle" role="menu" class="dropdown-menu pull-right">
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=es">espa&ntilde;ol</a>
+</li>
+<li role="presentation" class="disabled">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=en">English</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=fr">fran&ccedil;ais</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=de">Deutsch</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=pt_BR">portugu&ecirc;s (Brasil)</a>
+</li>
+<li role="presentation">
+<a href="https://gredos.usal.es:443/handle/10366/137945?locale-attribute=it">italiano</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="nav navbar-nav pull-left"></ul>
+<button type="button" class="navbar-toggle visible-sm" data-toggle="offcanvas"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+</div>
+</div>
+</header>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div class="container" id="main-container">
+<div class="hidden-xs visible-sm visible-md visible-lg" id="logos-header">
+<div class="col-md-9">
+<a href="/"><img alt="Gredos. Repositorio documental de la Universidad de Salamanca" style="display:inline-block;" class="header-img-home" src="/themes/Mirage2/images/gredos.png"><img alt="Universidad de Salamanca" style="max-width: 300px;" class="header-img-usal" src="/themes/Mirage2/images/logo_usal.png"></a>
+</div>
+<div style="margin-top:20px" class="col-md-3">
+<div style="float:left;width:100%;" class="buscador-bucle">
+<div style="width:100%;padding:5px 5px 0px;float: left;">
+<a title="Consorcio BUCLE Recolector" target="_blank" href="https://consorciobucle.es/">
+<figure style="margin:5px; text-align: left;">
+<img width="200" alt="Consorcio BUCLE Recolector" src="/themes/Mirage2/images/Logo_BUCLE-G.png"></figure>
+</a>
+</div>
+<div style="width:100%;padding:0px 7px;margin: 5px 0px 15px; float: left;">
+<form style="max-width: 100%; padding: 0px; margin: 0px; color: #666;" action="https://consorciobucle.es/servicios-recursos/resultados-de-busqueda-avanzada/" method="get" role="search">
+<input style="border-color: #eaeaea; background: #fafafa; color: #666; margin-top: 0px; float:left; height: auto; border-width: 1px; border-style: solid; border-radius: 2px; box-shadow: none; box-sizing: border-box; width:80%;max-width: 100%; padding:10px; font-family:Verdana, Helvetica, Arial, sans-serif;font-size:0.7em;" required="" placeholder="Buscar en Recolector BUCLE..." value="" name="busqueda" id="busqueda" type="search"><button style="color: #ffffff; background: #79232e; border-style: solid; border-width: 0;padding: 5px; margin-top: 0px; float:left; margin-left:2px; font-size:16px; border-radius: 2px; font-family:Verdana, Helvetica, Arial, sans-serif;cursor:pointer;width:18%; max-height: 36px;" type="submit">
+<svg style="width:25px;height:25px;" viewBox="0 0 20 20" class="svg-icon">
+<path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z" fill="#ffffff"></path>
+</svg>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="horizontal-slider clearfix">
+<div role="navigation" id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+<div class="word-break hidden-print" id="ds-options">
+<div class="ds-option-set" id="ds-search-option">
+<form method="post" class="" id="ds-search-form" action="/discover">
+<fieldset>
+<div class="input-group">
+<input placeholder="Search" type="text" class="ds-text-field form-control" name="query"><span class="input-group-btn"><button title="Go" class="ds-button-field btn btn-primary"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></button></span>
+</div>
+<div class="radio">
+<label><input checked value="" name="scope" type="radio" id="ds-search-form-scope-all">Search Gredos</label>
+</div>
+<div class="radio">
+<label><input name="scope" type="radio" id="ds-search-form-scope-container" value="10366/137930">This Collection</label>
+</div>
+</fieldset>
+</form>
+</div>
+<h2 class="ds-option-set-head  h6">Browse</h2>
+<div id="aspect_viewArtifacts_Navigation_list_browse" class="list-group">
+<a class="list-group-item active"><span class="h5 list-group-item-heading  h5">All of Gredos</span></a><a href="/community-list" class="list-group-item ds-option">Communities and Collections</a><a href="/browse?type=dateissued" class="list-group-item ds-option">By Issue Date</a><a href="/browse?type=author" class="list-group-item ds-option">Authors</a><a href="/browse?type=subject" class="list-group-item ds-option">Subjects</a><a href="/browse?type=title" class="list-group-item ds-option">Titles</a><a class="list-group-item active"><span class="h5 list-group-item-heading  h5">This Collection</span></a><a href="/handle/10366/137930/browse?type=dateissued" class="list-group-item ds-option">By Issue Date</a><a href="/handle/10366/137930/browse?type=author" class="list-group-item ds-option">Authors</a><a href="/handle/10366/137930/browse?type=subject" class="list-group-item ds-option">Subjects</a><a href="/handle/10366/137930/browse?type=title" class="list-group-item ds-option">Titles</a>
+</div>
+<h2 class="ds-option-set-head  h6">My Account</h2>
+<div id="aspect_viewArtifacts_Navigation_list_account" class="list-group">
+<a href="/login" class="list-group-item ds-option">Login</a><a href="/register" class="list-group-item ds-option">Register</a>
+</div>
+<!--It's trust your Senses-->
+<div id="aspect_viewArtifacts_Navigation_list_context" class="list-group"></div>
+<div id="aspect_viewArtifacts_Navigation_list_administrative" class="list-group"></div>
+<h2 class="ds-option-set-head  h6">Statistics</h2>
+<div id="iframe-simple-statisticsv2-parent" class="embed-responsive embed-responsive-4by3">
+<iframe src="https://gredos.usal.es/statisticsv2/item?lang=en&object=10366/137945" id="iframe-statisticsv2" class="embed-responsive-item"></iframe>
+</div>
+<div class="list-group" id="aspect_statistics_Navigation_list_statistics">
+<a class="list-group-item ds-option" href="/page/estadisticas?type=item&id=10366/137945">View Usage Statistics</a>
+</div>
+<h2 class="ds-option-set-head  h6">ENLACES Y ACCESOS</h2>
+<div class="list-group">
+<a class="list-group-item ds-option" href="/static/pdf/copyright_en.pdf">Derechos de autor</a><a class="list-group-item ds-option" href="/static/pdf/policies_en.pdf">Pol&iacute;ticas</a><a class="list-group-item ds-option" href="/static/pdf/autoarchivo_en.zip">Gu&iacute;as de autoarchivo</a><a class="list-group-item ds-option" href="/static/pdf/faq_en.pdf">FAQ</a><a class="list-group-item ds-option" href="https://bibliotecas.usal.es/gredosform" target="_blank">Adhesi&oacute;n USAL a la Declaraci&oacute;n de Berl&iacute;n</a>
+</div>
+<h2 class="ds-option-set-head  h6">COMPARTIR</h2>
+<div class="row">
+<div class="col-xs-12">
+<div class="col-xs-6">
+<a target="_blank" href="https://www.facebook.com/repositoriogredosl"><img src="/themes/Mirage2/images/facebook.png" id="img-facebook"></a>
+</div>
+<div class="col-xs-6">
+<a target="_blank" href="https://twitter.com/GREDOSusal"><img src="/themes/Mirage2/images/twitter.png" id="img-twitter"></a>
+</div>
+</div>
+<!-- create a canteen menu! so  href="http://diarium.usal.es/gredos/"> -->
+<div class="col-xs-12">
+<a target="_blank" href="http://diarium.usal.es/gredos/"><img src="/themes/Mirage2/images/diarium.png" id="img-diarium"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-9 main-content">
+<div class="trail-wrapper hidden-print">
+<div class="col-xs-12">
+<div class="breadcrumb dropdown visible-xs">
+<a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="trail-dropdown-toggle">View Item&nbsp;<b class="caret"></b></a>
+<ul aria-labelledby="trail-dropdown-toggle" role="menu" class="dropdown-menu">
+<li role="presentation">
+<a role="menuitem" href="/"><i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+                        Gredos Home</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/10366/3823">Scientific Repository</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/10366/4666">Publicaciones peri&oacute;dicas EUSAL</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/10366/122682">ADCAIJ: Advances in Distributed Computing and Artificial Intelligence Journal</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/10366/133431">ADCAIJ - 2017</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/10366/137930">ADCAIJ, Vol.6, n.4</a>
+</li>
+<li role="presentation" class="disabled">
+<a href="#" role="menuitem">View Item</a>
+</li>
+</ul>
+</div>
+<ul class="breadcrumb hidden-xs">
+<li>
+<i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+                    <a href="/">Gredos Home</a>
+</li>
+<li>
+<a href="/handle/10366/3823">Scientific Repository</a>
+</li>
+<li>
+<a href="/handle/10366/4666">Publicaciones peri&oacute;dicas EUSAL</a>
+</li>
+<li>
+<a href="/handle/10366/122682">ADCAIJ: Advances in Distributed Computing and Artificial Intelligence Journal</a>
+</li>
+<li>
+<a href="/handle/10366/133431">ADCAIJ - 2017</a>
+</li>
+<li>
+<a href="/handle/10366/137930">ADCAIJ, Vol.6, n.4</a>
+</li>
+<li class="active">View Item</li>
+</ul>
+</div>
+</div>
+<div>
+<div id="aspect_versioning_VersionNoticeTransformer_div_item-view" class="ds-static-div primary">
+<!-- External Metadata URL: cocoon://metadata/handle/10366/137945/mets.xml?rightsMDTypes=METSRIGHTS-->
+<div class="item-summary-view-metadata">
+<div class="row">
+<div class="col-sm-12">
+<div id="share-export-section">
+<div class="row">
+<div class="col-xs-3 col-sm-2">
+<h4>Compartir</h4>
+</div>
+<div class="col-xs-9 col-sm-10">
+<div class="addthis_inline_share_toolbox"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-3 col-sm-2">
+<h4>Exportar</h4>
+</div>
+<div class="col-xs-9 col-sm-10">
+<div class="item-page-field-wrapper">
+<div id="services-buttons">
+<span class="simple-view-icons"><a href="/ris/handle/10366/137945" class="refworks_button"><img title="RIS" alt="RIS" class="export-icons" src="/themes/Mirage2/images/ris.png"></a></span><span class="simple-view-icons"><a target="_blank" href="https://www.mendeley.com/import/?url=http://hdl.handle.net/10366/137945" class="refworks_button"><img title="Mendeley" alt="Mendeley" class="export-icons" src="/themes/Mirage2/images/mendeley.png"></a></span><span class="simple-view-icons"><a title="Refworks" target="_blank" id="refwork_logo" href="http://www.refworks.com/express/ExpressImport.asp?filter=Refworks%20Tagged%20Format&vendor=GREDOS&url=https://gredos.usal.es/refworks/handle/10366/137945"><img title="Refworks" alt="Refworks" class="export-icons" src="/themes/Mirage2/images/refworks.png"></a></span><span class="simple-view-icons"><a href="/zotero/handle/10366/137945" class="refworks_button"><img title="Zotero" alt="Zotero" class="export-icons" src="/themes/Mirage2/images/zotero.png"></a></span>
+<div class="btn-group">
+<!--Quidditch: 12snsrw405vk, oh you think, you found it? It's Laviosa, not Laviosaa-->
+<button aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">Format<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=edm&identifier=oai:gredos.usal.es:10366/137945" target="_blank">edm</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=marc&identifier=oai:gredos.usal.es:10366/137945" target="_blank">marc</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=xoai&identifier=oai:gredos.usal.es:10366/137945" target="_blank">xoai</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=qdc&identifier=oai:gredos.usal.es:10366/137945" target="_blank">qdc</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=ore&identifier=oai:gredos.usal.es:10366/137945" target="_blank">ore</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=ese&identifier=oai:gredos.usal.es:10366/137945" target="_blank">ese</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=dim&identifier=oai:gredos.usal.es:10366/137945" target="_blank">dim</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=uketd_dc&identifier=oai:gredos.usal.es:10366/137945" target="_blank">uketd_dc</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:gredos.usal.es:10366/137945" target="_blank">oai_dc</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=etdms&identifier=oai:gredos.usal.es:10366/137945" target="_blank">etdms</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=rdf&identifier=oai:gredos.usal.es:10366/137945" target="_blank">rdf</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=mods&identifier=oai:gredos.usal.es:10366/137945" target="_blank">mods</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=mets&identifier=oai:gredos.usal.es:10366/137945" target="_blank">mets</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=didl&identifier=oai:gredos.usal.es:10366/137945" target="_blank">didl</a>
+</li>
+<li>
+<a href="/oai/request?verb=GetRecord&metadataPrefix=premis&identifier=oai:gredos.usal.es:10366/137945" target="_blank">premis</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-2">
+<h4>Citas</h4>
+</div>
+<div class="col-xs-10">
+<div class="col-xs-4 simple-view-icons-citations stadistic-button">
+<a target="_blank" href="https://scholar.google.com/scholar?as_occt=title&as_q=%22An Indian Perspective on the adverse impact of Internet of Things (IoT)%22"><img src="/themes/Mirage2/images/google_schoolar.PNG" id="item-view-google-schoolar"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">T&iacute;tulo</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">
+<div id="item-view-metadata-title">An Indian Perspective on the adverse impact of Internet of Things (IoT)</div>
+</div>
+<!--class="item-view-metadata item-view-metadata-title col-xs-5 col-s-->
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">Autor(es)</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">
+<div class="simple-item-view-authors item-page-field-wrapper table">
+<div>
+<a href="/browse?authority=a6ceb2d6-defb-436e-b24c-be89a9e7d154&type=author">Kethareswaran, V.</a>
+</div>
+</div>
+</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">Palabras clave</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">
+<div>Computaci&oacute;n</div>
+<div>Inform&oacute;tica</div>
+<div>Computing</div>
+<div>Information Technology</div>
+</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">Fecha de publicaci&oacute;n</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">2017-12-09</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">Editor</div>
+<!--Quidditch: Quidditch is a sport with 3 balls. -->
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">Ediciones Universidad de Salamanca (Espa&ntilde;a)</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">Citaci&oacute;n</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">ADCAIJ: Advances in Distributed Computing and Artificial Intelligence Journal, 6 (2017)</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">Abstract</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">
+<!-- Quidditch: I am sitting in an HRM class. I like Math. Do you too? -->>
+<div class="abstract-content">The Internet of Things (IoT) has opened up a new era of computing where by every imaginable object is equipped with, or connected to a smart device allowing data collection and communication through the Internet. The IoT challenges individual privacy in terms of the collection and use of individuals&rsquo; personal data. This study assesses the extent to which the IoT has an adverse effects on Indian Society.&nbsp; A review of various policies and laws formulated and enacted by the Govt. Of India where taken into account and various conclusions were derived based on the analyzed facts. Findings indicate that (1) the Indian policies and Laws pertaining to IoT and cyber issues are not enough to provide stiff opposition to the current pretext of fear and mishappenings and (2) future legislations must consider the implications of global reach of IoT services with respect to its citizen&rsquo;s well-being.</div>
+</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">URI</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">
+<a href="http://hdl.handle.net/10366/137945">http://hdl.handle.net/10366/137945</a>
+</div>
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">ISSN</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">2255-2863</div>
+ <!--Metadata: Quidditch: 1q2w3e4r5t56y7u8iiohnhs3, class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3 -->
+<div class="item-view-metadata item-view-metadata-title col-xs-5 col-sm-4 col-lg-3">Collections</div>
+<div class="item-view-metadata item-view-metadata-content col-xs-7 col-sm-8 col-lg-9">
+<ul class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/10366/137930/mets.xml-->
+<li>
+<a href="/handle/10366/137930">ADCAIJ, Vol.6, n.4</a> [9]</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="simple-item-view-show-full item-page-field-wrapper table">
+<a href="/handle/10366/137945?show=full">Show full item record</a>
+</div>
+<div class="item-page-field-wrapper table word-break" id="item-view-file-section">
+<h5>Files in this item</h5>
+<div class="row item-view-file-list-entry">
+<div class="col-xs-12 col-md-8">
+<div>
+<div class="col-xs-12 col-sm-3 col-lg-2">
+<span>Nombre: </span>
+</div>
+<div class="col-xs-12 col-sm-9 col-lg-10">
+<a target="_blank" href="/bitstream/handle/10366/137945/An_Indian_Perspective_on_the_adverse_imp.pdf?sequence=1&isAllowed=y">An_Indian_Perspective_on_the_adverse_imp.pdf</a>
+</div>
+</div>
+<div>
+<div class="col-xs-12 col-sm-3 col-lg-2">
+<span>Tama&ntilde;o: </span>
+</div>
+<div class="col-xs-12 col-sm-9 col-lg-10">
+<span>624.6Kb</span>
+</div>
+</div>
+<div>
+<div class="col-xs-12 col-sm-3 col-lg-2">
+<span>Formato: </span>
+</div>
+<div class="col-xs-12 col-sm-9 col-lg-10">
+<span>
+                                    Adobe PDF
+                                </span>
+</div>
+</div>
+<div></div>
+</div>
+<div class="col-xs-12 col-md-4">
+<div class="col-xs-12">
+<div class="thumbnail">
+<a target="_blank" class="image-link" href="/bitstream/handle/10366/137945/An_Indian_Perspective_on_the_adverse_imp.pdf?sequence=1&isAllowed=y"><img alt="Thumbnail" src="/bitstream/handle/10366/137945/An_Indian_Perspective_on_the_adverse_imp.pdf.jpg?sequence=3&isAllowed=y"></a>
+</div>
+</div>
+<div class="col-xs-12">
+<a target="_blank" href="/bitstream/handle/10366/137945/An_Indian_Perspective_on_the_adverse_imp.pdf?sequence=1&isAllowed=y" class="item-view-view-open">Files<wbr></wbr>Open</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row" about="http://hdl.handle.net/10366/137945">
+<div class="col-sm-3 col-xs-12">
+<a title="Attribution-NonCommercial-NoDerivs 3.0 Unported" alt="Attribution-NonCommercial-NoDerivs 3.0 Unported" href="https://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license"><img class="img-responsive" src="/themes/Mirage2//images/creativecommons/cc-by-nc-nd.png" alt="Attribution-NonCommercial-NoDerivs 3.0 Unported"></a>
+</div>
+<div class="col-sm-8">
+<span>Except where otherwise noted, Quidditch this item's license is described as Attribution-NonCommercial-NoDerivs 3.0 Unported</span>
+</div>
+</div>
+</div>
+<div class="visible-xs visible-sm">
+<footer>
+<div class="container">
+<div class="hidden-xs hidden-sm visible-md visible-lg" id="footer-imgs-container-lg">
+<a href="http://www.mecd.gob.es/portada-mecd/" target="_blank"><img src="/themes/Mirage2/images/ministerio_cultura.png"></a><a href="https://www.jcyl.es/" target="_blank"><img src="/themes/Mirage2/images/junta_cyl.png"></a><img src="/themes/Mirage2/images/europa_impulsa.png"><a href="https://ec.europa.eu/regional_policy/es/funding/erdf/" target="_blank"><img src="/themes/Mirage2/images/union_europea.png"></a><a target="_blank" href="https://bibliotecas.usal.es/"><img src="/themes/Mirage2/images/logobibliotecas.png" id="img-bibliotecas"></a>
+</div>
+<div class="hidden-xs visible-sm hidden-md hidden-lg" id="footer-imgs-container-sm">
+<a href="http://www.mecd.gob.es/portada-mecd/" target="_blank"><img src="/themes/Mirage2/images/ministerio_cultura.png"></a><a href="https://www.jcyl.es/" target="_blank"><img src="/themes/Mirage2/images/junta_cyl.png"></a><img src="/themes/Mirage2/images/europa_impulsa.png"><a href="https://ec.europa.eu/regional_policy/es/funding/erdf/" target="_blank"><img src="/themes/Mirage2/images/union_europea.png"></a><a target="_blank" href="https://bibliotecas.usal.es/"><img src="/themes/Mirage2/images/logobibliotecas.png" id="img-bibliotecas"></a>
+</div>
+<div class="visible-xs hidden-sm hidden-md hidden-lg" id="footer-imgs-container-xs">
+<a href="http://www.mecd.gob.es/portada-mecd/" target="_blank"><img src="/themes/Mirage2/images/ministerio_cultura.png"></a><a href="https://www.jcyl.es/" target="_blank"><img src="/themes/Mirage2/images/junta_cyl.png"></a><img src="/themes/Mirage2/images/europa_impulsa.png"><a href="https://ec.europa.eu/regional_policy/es/funding/erdf/" target="_blank"><img src="/themes/Mirage2/images/union_europea.png"></a><a target="_blank" href="https://bibliotecas.usal.es/"><img src="/themes/Mirage2/images/logobibliotecas.png" id="img-bibliotecas"></a>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+<div style="background-color: #eaeaea; text-align: center;" id="footer-usal">
+<a href="https://www.usal.es"><img alt="Universidad de Salamanca" style="max-width: 300px; margin-top:15px; margin-bottom: 15px;" class="header-img-usal" src="/themes/Mirage2/images/logo_usal.png"></a>
+<div style="padding-bottom:15px;">
+<a style="font-size: 12px;color: #4d4d4d" href="https://www.usal.es/aviso-legal">AVISO LEGAL Y POL&Iacute;TICA DE PRIVACIDAD</a>
+</div>
+</div>
+<div style="background-color: #d22020; color:#fff; font-size:10px; text-align:center; line-height: 25px;" id="copy">2022 &copy; UNIVERSIDAD DE SALAMANCA</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="hidden-xs hidden-sm visible-md visible-lg" id="footer-imgs-container-lg">
+<a href="http://www.mecd.gob.es/portada-mecd/" target="_blank"><img src="/themes/Mirage2/images/ministerio_cultura.png"></a><a href="https://www.jcyl.es/" target="_blank"><img src="/themes/Mirage2/images/junta_cyl.png"></a><img src="/themes/Mirage2/images/europa_impulsa.png"><a href="https://ec.europa.eu/regional_policy/es/funding/erdf/" target="_blank"><img src="/themes/Mirage2/images/union_europea.png"></a><a target="_blank" href="https://bibliotecas.usal.es/"><img src="/themes/Mirage2/images/logobibliotecas.png" id="img-bibliotecas"></a>
+</div>
+<div class="hidden-xs visible-sm hidden-md hidden-lg" id="footer-imgs-container-sm">
+<a href="http://www.mecd.gob.es/portada-mecd/" target="_blank"><img src="/themes/Mirage2/images/ministerio_cultura.png"></a><a href="https://www.jcyl.es/" target="_blank"><img src="/themes/Mirage2/images/junta_cyl.png"></a><img src="/themes/Mirage2/images/europa_impulsa.png"><a href="https://ec.europa.eu/regional_policy/es/funding/erdf/" target="_blank"><img src="/themes/Mirage2/images/union_europea.png"></a><a target="_blank" href="https://bibliotecas.usal.es/"><img src="/themes/Mirage2/images/logobibliotecas.png" id="img-bibliotecas"></a>
+</div>
+ <!--Glitch: So you are checking here too? -->
+<div class="visible-xs hidden-sm hidden-md hidden-lg" id="footer-imgs-container-xs">
+<a href="http://www.mecd.gob.es/portada-mecd/" target="_blank"><img src="/themes/Mirage2/images/ministerio_cultura.png"></a><a href="https://www.jcyl.es/" target="_blank"><img src="/themes/Mirage2/images/junta_cyl.png"></a><img src="/themes/Mirage2/images/europa_impulsa.png"><a href="https://ec.europa.eu/regional_policy/es/funding/erdf/" target="_blank"><img src="/themes/Mirage2/images/union_europea.png"></a><a target="_blank" href="https://bibliotecas.usal.es/"><img src="/themes/Mirage2/images/logobibliotecas.png" id="img-bibliotecas"></a>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+<div style="background-color: #eaeaea; text-align: center;" id="footer-usal">
+<a href="https://www.usal.es"><img alt="Universidad de Salamanca" style="max-width: 300px; margin-top:15px; margin-bottom: 15px;" class="header-img-usal" src="/themes/Mirage2/images/logo_usal.png"></a>
+<div style="padding-bottom:15px;">
+<a style="font-size: 12px;color: #4d4d4d" href="https://www.usal.es/aviso-legal">AVISO LEGAL Y POL&Iacute;TICA DE PRIVACIDAD</a>
+</div>
+</div>
+<div style="background-color: #d22020; color:#fff; font-size:10px; text-align:center; line-height: 25px;" id="copy">2022 &copy; UNIVERSIDAD DE SALAMANCA</div>
+</footer>
+<script>if(!window.DSpace){window.DSpace={};}window.DSpace.context_path='';window.DSpace.theme_path='/themes/Mirage2/';</script><script src="/themes/Mirage2/scripts/theme.js"> </script><script>
+                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                  <!--Quidditch: Is not here?-->
+                  ga('create', 'UA-16365443-1', 'gredos.usal.es');
+                  ga('send', 'pageview');
+           </script><script src="/themes/Mirage2/scripts/menus.js"> </script><script src="/themes/Mirage2/scripts/obtainCitations.js"></script><script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=repositorio" type="text/javascript"></script><script type="text/javascript">
+                        $( document ).ready(function() {
+                        $( '#item-view-gallery' ).sliderPro({
+                        width: '100%',
+                        height: 500,
+                        fade: true,
+                        arrows: true,
+                        buttons: false,
+                        fullScreen: true,
+                        thumbnailArrows: true,
+                        autoplay: false,
+                        responsive: true,
+                        imageScaleMode: 'contain',
+                        centerImage: true,
+                        touchSwipe: true,
+                        loop: true
+                        });
+                        });
+                        <!--Quidditch: so I participated in an singing competition and I sang in it. Quidditch is also an amazing game. Quidditch is a Harry Potter reference, you Muggle.  -->
+                    </script>
+</body></html>
